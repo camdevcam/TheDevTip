@@ -1,0 +1,10 @@
+[10-Dec-2017 14:55:14 UTC] PHP Warning:  fopen(https://ninjaforms.com/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/cdev99/public_html/notes/wp-content/plugins/ninja-forms/includes/Helper.php on line 277
+[10-Dec-2017 14:55:14 UTC] PHP Warning:  stream_get_meta_data() expects parameter 1 to be resource, boolean given in /home/cdev99/public_html/notes/wp-content/plugins/ninja-forms/includes/Helper.php on line 277
+[22-Jan-2018 15:27:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyfourteen_post_nav() in /home/cdev99/public_html/notes/wp-content/themes/light-skeleton/single.php:24
+Stack trace:
+#0 /home/cdev99/public_html/notes/wp-includes/template-loader.php(74): include()
+#1 /home/cdev99/public_html/notes/wp-blog-header.php(19): require_once('/home/cdev99/pu...')
+#2 /home/cdev99/public_html/notes/index.php(17): require('/home/cdev99/pu...')
+#3 {main}
+  thrown in /home/cdev99/public_html/notes/wp-content/themes/light-skeleton/single.php on line 24

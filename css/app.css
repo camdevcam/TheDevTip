@@ -1,0 +1,624 @@
+html,
+input {
+    font-family: Prociono, serif
+}
+
+#weather,
+#weather h2,
+.quote-form {
+    text-align: center
+}
+.srf { 
+  max-width: 250px;
+  opacity: .5;
+  box-shadow: 4px 4px 4px #000;
+}
+html {
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+span.dashy {
+    font-size: 22px;
+    background: #000;
+    padding: 6px
+}
+
+.content h1.title {
+    background: rgba(0, 0, 0, .4);
+    width: 57%;
+    margin: 0 auto 11px;
+    padding: 16px;
+    box-shadow: 3px 2px 0 0 #3661A2;
+    font-size: 33px;
+    color:#ffffff;
+}
+
+.share-this-inline-share-buttons {
+    padding: 10px;
+    opacity: .3;
+}
+
+.share-this-inline-share-buttons:hover {
+    opacity: 1
+}
+
+.showy {
+    overflow-y: scroll
+}
+
+span.subtle {
+    display: inherit;
+    padding: 20px
+}
+.mac_contain {
+    background: url(http://www.pngmart.com/files/4/Macbook-PNG-Picture.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding: 130px;
+}
+#search,
+.f-wrap,
+span#explode2,
+span.general {
+    display: none
+}
+
+#search {
+    position: relative
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    font-size: 18px
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    padding: 3px
+}
+
+::-moz-placeholder {
+    font-size: 14px;
+    padding: 3px
+}
+
+:-ms-input-placeholder {
+    font-size: 14px;
+    padding: 3px
+}
+
+:-moz-placeholder {
+    font-size: 14px;
+    padding: 3px
+}
+
+.footer,
+input,
+li,
+ul {
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear
+}
+
+.ui-menu .ui-menu-item a {
+    background: red!important;
+    height: 10px!important;
+    font-size: 8px!important
+}
+
+.first {
+    width: 100%;
+    height: 2000px
+}
+
+.second {
+    width: 100%;
+    height: 1000px
+}
+
+#blurred-image-container {
+    display: block;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1
+}
+
+.arrowsug,
+.fontz,
+.icon:after,
+.img-src,
+.svrap,
+span#explode {
+    position: absolute
+}
+
+a.sched:hover {
+    background: rgba(0, 0, 0, .5);
+    padding: 2px;
+    color: #fff;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear
+}
+
+span.blank {
+    width: 100%;
+    background: #3661A2;
+    padding: 4px 10px;
+    box-shadow: 3px 3px 4px #333;
+    font-size: 22px
+}
+
+span#explode {
+    border-bottom: 1px solid #fff;
+    height: 20px;
+    top: 58px;
+    right: 311px;
+    background: #fff;
+    color: #333;
+    padding: 7px;
+    box-shadow: 3px 3px 3px #333
+}
+
+span#explode,
+span#explode2 {
+    cursor: pointer;
+    display: none
+}
+
+#weather {
+    width: 500px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 11px;
+    opacity: .6
+}
+
+#weather h2 {
+    margin: 0 0 8px;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+    padding-top: 36px;
+}
+
+#weather ul {
+    margin: 0;
+    padding: 0;
+    padding: 20px;    
+}
+
+#weather li {
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px
+}
+
+.arrowsug,
+.header,
+.quote-form,
+.request,
+.start_mobi,
+.svrap,
+h1.luck,
+i.icon-12,
+img.lucky {
+    display: none
+}
+
+#weather .currently {
+    margin: 0 20px
+}
+
+.arrowsug {
+    width: 380px;
+    top: 20%;
+    left: 60%;
+    opacity: .1;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg)
+}
+
+img.lucky {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    cursor: pointer
+}
+
+img.lucky:hover {
+    cursor: pointer
+}
+
+span#explode:hover {
+    color: #fff;
+    background: #3661A2;
+    border-bottom: 1px solid #3661A2;
+    cursor: pointer;
+    padding: 6px;
+    box-shadow: 3px 3px 3px #333;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear
+}
+
+.svrap {
+    opacity: .7;
+    right: 20%;
+    top: 18%
+}
+
+span.general {
+    font-size: 11px;
+    line-height: 2
+}
+
+.ar {
+    opacity: .5
+}
+
+.f-wrap {
+    background: rgba(54, 97, 162, .7);
+    padding: 35px;
+    margin-top: -11px
+}
+
+.icon:after {
+    content: "";
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, .13);
+    background: linear-gradient(to right, rgba(255, 255, 255, .13) 0, rgba(255, 255, 255, .13) 77%, rgba(255, 255, 255, .5) 92%, rgba(255, 255, 255, 0) 100%)
+}
+
+.icon:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: .7s, .7s, .15s;
+    transition-timing-function: ease
+}
+
+.icon:active:after {
+    opacity: 0
+}
+
+.img-src {
+    background: url(http://www.cdev.co/notes/wp-content/uploads/2018/01/tumblr_nhf4f8sGfz1s4fz4bo1_500.gif) center center;
+    background-size: cover;
+    top: -10%;
+    bottom: 10%;
+    left: -10%;
+    right: 10%;
+    width: 120%;
+    height: 120%
+}
+
+.fontz {
+    color: #fff;
+    font-size: 11px;
+    top: 27px;
+    left: 160px
+}
+
+span.dash {
+    font-size: 39px;
+    background: #000;
+    padding: 29px; 
+    border: 1px dotted #3661A6;
+}
+
+select,
+textarea {
+    font-size: 16px
+}
+
+.disabled {
+    opacity: .2
+}
+
+.request {
+    top: 0;
+    position: fixed;
+    right: 100px;
+    color: #fff;
+    background: #3661A2;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000
+}
+
+#submitit,
+input[type=submit] {
+    color: #fff;
+    background: #3661A2;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 855px;
+    width: 688px;
+    left: 10px
+}
+
+.contacter {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+textarea {
+    width: 100%;
+    height: 100px
+}
+.control { 
+    position: fixed;
+    bottom: -300px;
+}
+.control img { 
+    width: 57%;
+    opacity: .5;
+}
+.quote-form {
+    position: relative;
+    width: 500px;
+    top: 0;
+    left: 0;
+    padding: 50px 100px 20px;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    margin: 0 auto;
+    z-index: 1001;
+    box-shadow: 4px 2px 4px 0 #000
+}
+
+.qtable tr>td {
+    text-align: right;
+    padding-right: 20px
+}
+
+input {
+    -webkit-transition: all .7s ease 0s;
+    -moz-transition: all .7s ease 0s;
+    -o-transition: all .7s ease 0s;
+    transition: all .7s ease 0s
+}
+
+input:focus {
+    width: 385px;
+    box-shadow: 2px 1px 13px #3661A2;
+    outline: 0;
+    border-radius: 2px
+}
+
+.img-src.blurred-image {
+    opacity: 0;
+    -webkit-filter: blur(20px) brightness(.7);
+    -ms-filter: blur(20px) brightness(.7);
+    -o-filter: blur(20px) brightness(.7);
+    filter: blur(20px) brightness(.7)
+}
+
+a:link,
+a:visited {
+    color: #fff
+}
+
+a:hover {
+    color: #3661A2;
+    font-weight: 700
+}
+
+.content {
+    padding: 200px 50px;
+    color: #fff;
+    text-align: center
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin-bottom: 50px;
+    margin-top: 200px
+}
+
+.footer,
+.header {
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    position: fixed
+}
+
+.item {
+    font-size: 18px
+}
+
+.pushdown {
+    margin-top: 1000px
+}
+
+.header {
+    line-height: 2;
+    top: 0
+}
+
+.footer {
+    line-height: 3;
+    bottom: 0;
+    font-size: 15px
+}
+
+.twitter-share-button {
+    padding: 3px 5px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: #176487!important;
+    font-size: 11px;
+    font-weight: 700;
+    text-shadow: #fff 0 1px 0;
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 0, #d5e6ef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #d5e6ef));
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #a4cce5 #a4cce5 #9db9cb;
+    position: absolute!important;
+    right: 15px!important;
+    top: 13px!important;
+    line-height: 1
+}
+
+.twitter-share-button:hover {
+    color: #0a3752;
+    background: #f2f8fc;
+    background: -moz-linear-gradient(top, #f2f8fc 0, #bfdfed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f2f8fc), color-stop(100%, #bfdfed));
+    border-color: #52a3d6 #52a3d6 #68a0c4
+}
+
+.twitter-share-button:active {
+    color: #658a9d;
+    background: #cee5f4;
+    border-color: #7ab8df #7ab8df #85adc6
+}
+
+span.cr {
+    font-size: 10px
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadein {
+    Firefox from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media (max-width:600px) and (min-width:250px) {
+    .f-wrap,
+    .qtable tr>td {
+        padding: 0
+    }
+    .start_mobi {
+        display: block
+    }
+    #weather,
+    .arrowsug,
+    .fontz,
+    .request,
+    .start,
+    .twitter-share-button,
+    label,
+    span.chan {
+        display: none
+    }
+    .content h1.title {
+        width: auto;
+        font-size: 25px;
+        background: rgba(0, 0, 0, .1)
+    }
+    .request,
+    input,
+    input:focus {
+        width: 100%
+    }
+    .footer {
+        font-size: 10px;
+        line-height: 2
+    }
+    .f-wrap {
+        margin: 0 auto
+    }
+    .quote-form {
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 0 0 20px
+    }
+    .request {
+        top: 0;
+        position: fixed;
+        right: 0;
+        color: #fff;
+        background: #3661A2;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px #000;
+        text-align: center
+    }
+    #submitit,
+    input[type=submit] {
+        color: #fff;
+        background: #3661A2;
+        padding: 10px;
+        cursor: pointer;
+        position: absolute;
+        top: 735px;
+        width: 90%;
+        left: 10px
+    }
+    span#explode {
+        position: absolute;
+        top: 130%;
+        right: -4%
+    }
+}

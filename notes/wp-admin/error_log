@@ -1,0 +1,3 @@
+[27-Dec-2017 04:42:19 UTC] PHP Warning:  fopen(/home/cdev99/public_html/notes/wp-content/plugins/popular-post-widget/popular-post.php): failed to open stream: No such file or directory in /home/cdev99/public_html/notes/wp-includes/functions.php on line 4833
+[27-Dec-2017 04:42:19 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/cdev99/public_html/notes/wp-includes/functions.php on line 4836
+[27-Dec-2017 04:42:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/cdev99/public_html/notes/wp-includes/functions.php on line 4839

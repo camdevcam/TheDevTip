@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<title>cdev.co | Freelance Web Development, Dev Recruiting, and Blog</title>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta name="description" content="Freelance Web Developer, Teacher, Dev Recruiter, and Blog">
+  <meta name="keywords" content="Web, Developer, Freelancer, Freelance Developer, Freelance Dev recruiter, recruiter, programmer, JavaScript, jQuery, HTML5, CSS3, SASS, CMS, PHP, Web Development, Full-Stack, Front-End, Engineer,">
+  <meta name="author" content="Cameron Cashwell">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109219963-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-109219963-1');
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/flick/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css">
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="layout-foreground">
+    <div id="blurred-image-container">
+        <div class="img-src"></div>
+        <div class="img-src blurred-image"></div>
+    </div>
+    <div class="content">
+<div class="svrap">
+<!-- add svg -->
+</div>
+
+ <h1 class="sup"></h1>
+ <h1 class="luck">You're in luck.</h1>
+ <a href="https://www.linkedin.com/in/cameron-cashwell-808961105/" target="_blank" class="icon"><img src="http://www.thedevtip.com/notes/wp-content/uploads/2017/11/151171704964816.gif" class="lucky" alt="Cameron Cashwell Web Developer"></a>
+ <div class="arrowsug">
+ <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M.37,256C.37,114.82,114.82.35,256,.35S511.64,114.83,511.63,256,397.18,511.65,256,511.65.35,397.18.37,256Z" fill="#3661A2"/><path d="M132.84,216.31h0l221.35-81.24a43.94,43.94,0,0,1,13.41-2.23c4.1,0,7.82,1.49,9.68,4.47,1.5,2.24,1.87,5.23,1.87,8.95s-1.13,7.08-2.62,11.93c-24.58,67.82-52.9,158-81.59,221l-7.46-1.49C283,349,277.79,316.92,275.56,289a50.56,50.56,0,0,0-15.27-36.89c-9.69-9.69-22.36-15.66-36.9-15.66l-89.06-11.92h-.74l-.75-7.45Z" fill="#fff" fill-rule="evenodd"/></svg>
+ </div>
+
+<div ng-app='MyModule' id="search">
+    <div ng-controller='DefaultCtrl' class="main_contain">
+            <div class="start">What kind of dev service do you need? <!--<span class="blank">{{selected}}</span>--> Please type & select below...
+            </div><br>
+           <div class="start_mobi">What kind of dev service do you need? <!--<span class="blank">{{selected}}</span>--> Please double tap your selection below...</div>
+        <br>
+        <span id="explode">Submit!</span>           
+        <input auto-complete ui-items="names" ng-model="selected" id="fill" placeholder="Type here... What kind of dev help?">
+    </div>
+</div>
+ <span class="general">cdev.co is Freelance Web Development, Dev Recruiting, and Blog</span>
+<!-- request form -->
+
+<form class="quote-form" method="post" action="requester.php">
+  
+    <table class="qtable">
+    <span class="fontz">* All fields are required. Please fill out all fields, including the security TV show question.</span>
+    <br>
+        <tr>
+            <td>
+                <label for="name">
+                    <span>* Name: </span>
+                </label>
+            </td>
+            <td>
+                <input id="name" name="name" type="text" placeholder="What is your name?" required />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="company">
+                    <span>* Company: </span>
+                </label>
+            </td>
+            <td>
+                <input id="company" name="company" type="text" placeholder="Is this for your company?" required />
+            </td>
+        </tr>        
+        
+        <tr>
+            <td>
+                <label for="email">
+                    <span>* Email: </span>
+                </label>
+            </td>
+            <td>
+                <input id="email" name="email" type="text" placeholder="Your email, please!" required /> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phone">
+                    <span>* Phone:</span>
+                </label>
+            </td>
+            <td>
+                <input id="phone" name="phone" type="text" placeholder="Phone?" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="project">
+                    <span>* What type of dev project?</span>
+                </label>
+            </td>
+            <td>
+               <select name="project">
+  <option value="Lander">New Landing page</option>
+  <option value="MWebsite">New Mid-Size Website</option>
+  <option value="LWebsite">New Large Website</option>
+  <option value="WebApp">New Web Application</option>
+  <option value="Feat">New Feature/Functionality</option>
+  <option value="Email">HTML Email</option>
+  <option value="Bug">Bug Help/Updates</option>
+  <option value="Support">Gen Dev Support</option>
+  <option value="Consult">Consultation</option>
+  <option value="Main">Maintenance</option>
+  <option value="Perf">Optimize/Performance</option>
+  <option value="Mig">Rebuild/Migration</option>
+  <option value="Form">Web Forms</option>
+  <option value="WP">New Wordpress CMS</option>
+  <option value="Dr">New Drupal CMS</option>
+  <option value="Mag">New Magento CMS</option>
+  <option value="Misc">Misc Web Coding (JS,CSS,HTML,PHP)</option> 
+  <option value="Recruit">I need Dev recruiting help</option>  
+  <option value="NotListed">Not Listed (type below)</option>
+              </select>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <label for="message">
+                    <span>* Details/ Specifications</span>
+                </label>
+            </td>
+            <td>  
+                <textarea id="specs" name="specs" placeholder="I love specs, the more the better!"></textarea>    
+            </td>
+        </tr>       
+        <tr>
+            <td>
+                <label for="message">
+                    <span>* What is your timeline?</span>
+                </label>
+            </td>
+            <td>
+               <select name="time">
+  <option value="3days">3 days</option>             
+  <option value="1to2week">1-2 weeks</option>
+  <option value="2to3week">2-3 weeks</option>
+  <option value="4to5week">4-5 weeks</option>
+  <option value="6weeks">6 weeks</option>
+  <option value="8weeks">8 weeks</option>
+  <option value="3to4mo">3-4 months</option>
+  <option value="6mos">6 months</option>
+  <option value="6to12mos">6-12 months</option>
+  <option value="other">Other (please type in detail box)</option>
+              </select>
+            </td>
+        </tr>
+<tr>
+            <td>
+                <label for="budget">
+                    <span>* What is your Dev budget?</span>
+                </label>
+            </td>
+            <td>
+               <select name="budget">
+                <option value="300">~$300 total</option>             
+                <option value="500">~$500 total</option>
+                <option value="1k">~$1000 total</option>
+                <option value="2k">~$2000 total</option>
+                <option value="5k">~$5000 total</option>
+                <option value="10k">~$10,000 total</option>
+                <option value="40to50hr">$40-$50 ph</option>
+                <option value="neg">Negotiable</option>
+                <option value="other">Other (please type in detail box)</option>
+              </select>
+            </td>
+        </tr> 
+ <tr>
+            <td>
+                <label for="more">
+                    <span>* Tell me more</span>
+                </label>
+            </td>
+            <td>
+                <textarea id="more" name="more" placeholder="Oh, do tell."></textarea>    
+            </td>
+        </tr>    
+ <tr>
+            <td>
+                <label for="goals">
+                    <span>* What are your goals?</span>
+                </label>
+            </td>
+            <td>
+                <textarea id="goals" name="goals" placeholder="Tell me about your goals, whats the bigger picture?"></textarea>    
+            </td>
+ </tr>           
+ <tr>
+ <tr>
+            <td>
+                <label for="goals">
+                    <span>Chat?</span>
+                </label>
+            </td>
+            <td>
+                <a href="https://calendly.com/cashwellcamc/15min/" class="sched" target="_blank">Click here to schedule a consultation</a>  
+            </td>
+ </tr>           
+ <tr>
+ 
+            <td>
+                <label for="chandler"/>
+                    <span>* What TV show is 'Chandler Bing' from?</span>
+                </label>
+            </td>
+            <td>
+                <input id="chandler" name="chandler" type="text" placeholder="Checkpoint. TV show 'Chandler Bing' is from?"/>  
+            </td>
+            <input type="submit" value="Submit" id="submitit">
+  </tr>
+
+    </table>
+</form>
+<!-- // request form -->
+
+</div>
+</div>
+
+<div class="request">Request Dev Services.</div>
+
+<div class="footer"><a href="http://www.thedevtip.com/nav/" class="exitit" target="_blank">Visit the Web Development Blog!</a> <a href="http://twitter.com/share?text=Everyone,%20check out%thedevtip.com,%20web%20development%20website%20offering%20many%20easy%20to%20use%20freelance%20dev%20services%20and%20also%20a%20blog!%20" class="twitter popup twitter-share-button" target="_blank">Tweet this find!</a></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://code.angularjs.org/1.0.0/angular-1.0.0.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"
+  integrity="sha256-xI/qyl9vpwWFOXz7+x/9WkG5j/SVnSw21viy8fWwbeE="
+  crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
