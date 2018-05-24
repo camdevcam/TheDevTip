@@ -17,6 +17,12 @@ html {
     max-width: 37%;
     float:right;
 }
+.b { 
+    font-weight: bold;
+}
+.date {     
+    font-style: italic;
+}
 .coin {
     background-image: url(http://thedevtip.com/notes/wp-content/uploads/2018/05/13043625_1172876916102557_764452936549730068_n.jpg);
     background-size: 100% 100%;
