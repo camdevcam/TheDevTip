@@ -15,9 +15,19 @@ html {
 /*    padding: 15px;*/
     background: #dddddd;
 }
-
+ul#browser li {
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    list-style-type: none;
+    /* background: #ffffff; */
+    line-height: 2;
+    border-bottom: 1px dotted #fff;
+    font-weight:bolder;
+}
 body {
 	margin: 0;
+    background: #000000;
 }
 .share-this-inline-share-buttons { 
     padding: 10px;
