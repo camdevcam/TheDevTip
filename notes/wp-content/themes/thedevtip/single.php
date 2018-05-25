@@ -25,7 +25,7 @@ get_header(); ?>
             
             <div class="author_box">
             <span class="authr">About the Author</span>
-            <center><a href="https://www.linkedin.com/in/cameron-cashwell-808961105/" target="_blank" class="">
+            <center><a href="https://www.linkedin.com/in/cameron-c-808961105/" target="_blank" class="">
             <div class="pro_cont">
             <img src="http://www.thedevtip.com/notes/wp-content/uploads/2017/12/U8NyeYHK_400x400.jpg" class="lucky blurd" alt="Cameron Cashwell Web Developer">
             </div>
