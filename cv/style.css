@@ -3,6 +3,9 @@ html {
    background-repeat: repeat;
    font-family: 'Philosopher', sans-serif;
 }
+a:link, a:hover, a:active, a:visited { 
+    color: #3399ff;
+}
 .pager { 
     max-width: 1000px;
     border: 1px dashed #ddd;
@@ -95,7 +98,9 @@ html {
     from, to { border-color: transparent }
     50% { border-color: black }
 }
-
+.spacer { 
+    height: 120px;
+}
 h4.intro { 
     white-space:nowrap;
     overflow:hidden;
@@ -105,4 +110,17 @@ h4.intro {
                         blink-caret 1s step-end infinite;
     -moz-animation: typing 17s steps(30, end), /* # of steps = # of characters */
                         blink-caret 1s step-end infinite;
+}
+.stickyfoot {
+    width: 100%;
+    position: fixed;
+    opacity: .5;
+    text-align: center;
+    color: #ffffff;
+    bottom: 0px;
+    background: #000000;
+    line-height: 3;
+}
+.stickyfoot:hover { 
+    opacity: 1;
 }
