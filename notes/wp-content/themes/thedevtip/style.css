@@ -31,7 +31,8 @@ ul#browser li a {
     padding: 10px;
     text-decoration: none;
     font-size: 18px;
-    box-shadow: 6px 6px 6px #000;    
+    box-shadow: 6px 6px 6px #000;  
+    font-weight:regular;
 }
 .single .entry-header { 
     text-align: center;
@@ -42,7 +43,7 @@ ul#browser li a:hover {
     background: #ffffff;
     padding: 10px;
     padding-right: 100px;
-    font-weight: bolder;
+/*    font-weight: bolder;*/
 }
 body {
 	margin: 0;
@@ -977,8 +978,8 @@ a:hover {
 	color: #3399ff; opacity: 1; }
 
 .blink {
-  animation: blink-animation 1s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  animation: blink-animation 1s steps(5, start) 1;
+  -webkit-animation: blink-animation 1s steps(5, start) 1;
 }
 @keyframes blink-animation {
   to {
