@@ -24,11 +24,13 @@ ul#browser li {
 /*    border-bottom: 1px dotted #fff;*/
     font-weight:bolder;
 }
-ul#browser li a { 
-    color: #3399ff;
+ul#browser li a {
+    color: #000000;
     opacity: .9;
     background: #ffffff;
     padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
 }
 ul#browser li a:hover { 
     color: #3399ff;
