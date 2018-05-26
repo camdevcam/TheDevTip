@@ -17,13 +17,26 @@ html {
 }
 ul#browser li {
     width: 100%;
-    text-align: center;
     padding: 4px;
     list-style-type: none;
     /* background: #ffffff; */
     line-height: 2;
-    border-bottom: 1px dotted #fff;
+/*    border-bottom: 1px dotted #fff;*/
     font-weight:bolder;
+}
+ul#browser li a { 
+    color: #3399ff;
+    opacity: .9;
+    background: #ffffff;
+    padding: 10px;
+}
+ul#browser li a:hover { 
+    color: #3399ff;
+    opacity: .9;
+    background: #ffffff;
+    padding: 10px;
+    padding-right: 100px;
+    font-weight: bolder;
 }
 body {
 	margin: 0;
@@ -564,12 +577,14 @@ a.chat {
     left: 10%;
     color: #ffffff;
     z-index: 1001;
+    width: 30%;
 }
 .bannr a { color: #ffffff; border: 0px; text-decoration: none; }
-.bannr h1 { 
-   background: rgba(54, 97, 162, 0.7);
-   font-size: 3.2rem;
-   opacity: .8;
+.bannr h1 {
+    background: rgba(54, 97, 162, 0.7);
+    font-size: 3.2rem;
+    opacity: .8;
+    margin-top: 19px;
 }
 a.skip-link.screen-reader-text {
 	display: none;
@@ -1214,14 +1229,20 @@ img.size-post-thumbnail {
 .entry-content {
 	margin: 30px 0;
 }
-
-article.post { margin-bottom: 50px; padding:10px; color: #ffffff; background: #333333;; position: relative;}
+.logico {
+    float: left;
+    width: 17px;
+    margin-top: 25px;
+    padding: 5px;
+}
+article.post { margin-bottom: 50px; padding:10px; color: #ffffff; background: #333333; position: relative;}
 article.post:hover {padding: 15px;background: rgba(0, 0, 0, 0.9); border: 1px solid #333333;}
 
 aside#secondary {
 	padding-left: 2%;
 	margin-left: 2%;
     opacity: .6;
+    background: #333333;
 }
 aside#secondary:hover { 
     opacity: 1;

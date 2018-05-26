@@ -1,5 +1,4 @@
 <?php
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -17,7 +16,7 @@
 </head>
 <a href="http://www.thedevtip.com/#request" class="cta" target="_blank">Request Dev Services »</a>
 <body <?php body_class(); ?>>
-    <div class="bannr"><a href="http://www.thedevtip.com/notes">
+    <div class="bannr"><img src="http://thedevtip.com/notes/wp-content/uploads/2018/05/if_f-triangle_128_307995.png" class="logico"><a href="http://www.thedevtip.com/notes">
 	<h1>theDevTip.com / Notes /</h1>
 	</a></div>	
 <div id="page" class="site">
