@@ -32,6 +32,9 @@ ul#browser li a {
     text-decoration: none;
     font-size: 18px;
 }
+.single .entry-header { 
+    text-align: center;
+}
 ul#browser li a:hover { 
     color: #3399ff;
     opacity: .9;
