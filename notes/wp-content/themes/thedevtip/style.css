@@ -31,6 +31,7 @@ ul#browser li a {
     padding: 10px;
     text-decoration: none;
     font-size: 18px;
+    box-shadow: 6px 6px 6px #000;    
 }
 .single .entry-header { 
     text-align: center;
@@ -273,14 +274,14 @@ input::-moz-focus-inner {
 
 .single article.post{ 
 /*    padding: 25px;*/
-    background: #ffffff;
+    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/stripes-light.png');
     padding:30px;
     color: #000000;
     opacity: .5;
 }
 .single article.post:hover{ 
 /*    padding: 25px;*/
-    background: #ffffff;
+    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/stripes-light.png');
     padding:35px;
     color: #000000;
     opacity: 1;
@@ -450,10 +451,16 @@ a img.aligncenter {
 .author_box {
     height: 150px;
     padding-top: 50px;
-    background: rgba(255,255,255, 0.1);
+    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/footer_lodyas.png');
     margin-top: 40px;
+    opacity: .6;
 }
-.author_box:hover { background: #000000; border:1px solid #333;}
+.author_box:hover { 
+    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/footer_lodyas.png');
+ border:1px solid #333;
+    opacity: 1;
+}
+
 .author_box .pro_cont {
     float: right;
     padding: 40px;
@@ -1221,8 +1228,10 @@ img.size-post-thumbnail {
 
 .entry-title a { color: inherit; text-decoration: none}
 
+.entry-content img { border: 1px dotted #dddddd}
+
 .entry-meta {
-    border-bottom: 1px solid #333;
+/*    border-bottom: 1px solid #333;*/
     font-size: 10px;
     font-style: italic;
     padding-bottom: 10px;
@@ -1240,14 +1249,14 @@ img.size-post-thumbnail {
     margin-top: 25px;
     padding: 5px;
 }
-article.post { margin-bottom: 50px; padding:10px; color: #ffffff; background: #333333; position: relative;}
-article.post:hover {padding: 15px;background: rgba(0, 0, 0, 0.9); border: 1px solid #333333;}
+article.post { margin-bottom: 50px; padding:10px; color: #ffffff; background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/footer_lodyas.png'); position: relative;}
+article.post:hover {padding: 15px;background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/escheresque_ste.png'); border: 1px solid #333333; background-size: 5%;}
 
 aside#secondary {
 	padding-left: 2%;
 	margin-left: 2%;
     opacity: .6;
-    background: #333333;
+    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/footer_lodyas.png');
 }
 aside#secondary:hover { 
     opacity: 1;
