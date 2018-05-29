@@ -160,3 +160,43 @@ q:before, q:after {
   color: #ccc;
   font-size: 4rem;
 }
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
+}
+
+.pulse{
+	animation-name: pulse_animation;
+	animation-duration: 5000ms;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    display: inline-block;
+}
+
+span { 
+    display: inherit;
+    text-align:center;
+}
+
+.moveit {
+-moz-transform:rotate(220deg);
+    -webkit-transform:rotate(220deg);
+    -o-transform:rotate(220deg);
+    -ms-transform:rotate(220deg);
+    transform:rotate(220deg); 
+}
+
+.moveit2 {
+-moz-transform:rotate(120deg);
+    -webkit-transform:rotate(120deg);
+    -o-transform:rotate(120deg);
+    -ms-transform:rotate(120deg);
+    transform:rotate(120deg); 
+}

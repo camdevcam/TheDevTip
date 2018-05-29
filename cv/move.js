@@ -41,6 +41,20 @@ function Accordion(){
       });
     }
 }    
+$(function() {
+    var $rotate = $("span.skill");
+    var $rotate2 = $("span.skill2");
+    
+    setInterval(function(){
+        $rotate.toggleClass("moveit");
+    }, 4000);
+    
+    setInterval(function(){
+        $rotate2.toggleClass("moveit2");
+    }, 6000);    
+    
+});
+
 //function splitWords() {
 //  let quote = document.querySelector("blockquote q");
 //  quote.innerText.replace(/(<([^>]+)>)/ig,"");

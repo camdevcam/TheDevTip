@@ -32,6 +32,8 @@ $(document).ready(function() {
 
 $('article').prepend('<span class="close">X</span>'); // add the button	
     
+$('.tagcloud a').addClass("pulse");
+    
 $('.vcard').text("Cameron Cashwell");
 
 $('span.close').on("click", function () {
