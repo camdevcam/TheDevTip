@@ -7,12 +7,12 @@ var current = window.location.href;
 if(current == homepage) {
     setTimeout(function () {
         window.location.href = "http://www.thedevtip.com/nav/"; 
-    }, 9400);   
+    }, 9500);   
 } 
 else if (current == orpage){ 
     setTimeout(function () {
         window.location.href = "http://www.thedevtip.com/nav/"; 
-    }, 9400);   
+    }, 9500);   
 } else {
 
 }
