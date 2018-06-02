@@ -16,7 +16,8 @@ input {
 html {
     overflow-x: hidden;
     overflow-y: hidden;
-    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/06/grey_wash_wall.png');
+/*    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/06/grey_wash_wall.png');*/
+    background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/footer_lodyas.png');
     background-repeat:repeat;
 }
 

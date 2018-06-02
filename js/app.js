@@ -7,12 +7,12 @@ var current = window.location.href;
 if(current == homepage) {
     setTimeout(function () {
         window.location.href = "http://www.thedevtip.com/nav/"; 
-    }, 9500);   
+    }, 9800);   
 } 
 else if (current == orpage){ 
     setTimeout(function () {
         window.location.href = "http://www.thedevtip.com/nav/"; 
-    }, 9500);   
+    }, 9800);   
 } else {
 
 }
@@ -135,20 +135,21 @@ if (curHr < 12) {
   $("span.sup").html("Nice evening, isn't it?");
 }
 
-$('.request').click(function(){
-    $(this).fadeTo("slow", 0, function(){
-        $(this).remove(),
-        $('span.general').hide();   
-        $('.f-wrap').fadeIn("slow");        
-        $('span.subtle').fadeOut("fast");        
-        $('html').toggleClass('showy'); 
-        $('#weather').css({ 'display': "none",});
-        $('h1.title').css({ 'font-size': "16px", 'width': "100%"})        
-        $('.content').css({ padding: "0px", height: "1100px",})
-        $('.quote-form').slideDown('1500');
-        window.location.hash = 'request';
-    });
-});
+//$('.request').click(function(){
+//    $(this).fadeTo("slow", 0, function(){
+//        $(this).remove(),
+//        $('span.general').hide();   
+//        $('.iterm').hide();
+//        $('.f-wrap').fadeIn("slow");        
+//        $('span.subtle').fadeOut("fast");        
+//        $('html').toggleClass('showy'); 
+//        $('#weather').css({ 'display': "none",});
+//        $('h1.title').css({ 'font-size': "16px", 'width': "100%"})        
+//        $('.content').css({ display: "0px", height: "1100px",})
+//        $('.quote-form').slideDown('1500');
+//        window.location.hash = 'request';
+//    });
+//});
 
 // $('.exit').click(function(){
 //         window.location.hash = 'exit';
@@ -159,6 +160,8 @@ if(document.URL.indexOf("#request") >= 0){
     $('span.general').hide();
     $('html').toggleClass('showy');           
     $('.start').fadeOut("slow");
+    $('.iterm').hide();
+    $('.content').css({'margin-top': "1%",})
     $('#search, .main_contain').fadeOut("fast");
     $('input#fill').fadeOut("slow");
     $('h1.sup').fadeIn("fast");
