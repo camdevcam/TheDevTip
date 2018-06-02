@@ -15,13 +15,14 @@ input {
 }
 html {
     overflow-x: hidden;
-    overflow-y: hidden
+    overflow-y: hidden;
+    background: #aaaaaa;
 }
 
 span.dashy {
     font-size: 22px;
     background: #000;
-    padding: 6px
+    padding: 6px;
 }
 
 .content h1.title {
@@ -193,7 +194,45 @@ span#explode2 {
     font-size: 11px;
     opacity: .6
 }
+.show { display:block !important;}
+.css-typing
+{
+    width: 40em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 3s steps(50, end);
+    animation: type 3s steps(50, end);
+    font-size:22px;
+}
 
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+.line { 
+  display: none;
+  color: #ffffff;
+}
+.blackbox { 
+   width: 700px;
+   height: 400px;
+   background: #000000;
+   float:left; 
+   margin-top:30px;
+   padding: 5px;
+   border-top: 15px;
+   border-top: 25px solid #dddddd;
+}
+.iterm { 
+   background-size: cover;
+   width: 700px;
+   height: 400px;
+   margin: 0 auto;
+   position:relative;    
+}
 #weather h2 {
     margin: 0 0 8px;
     color: #fff;
@@ -437,11 +476,9 @@ a:hover {
 }
 
 .content {
-    padding: 200px 50px;
     color: #fff;
-    text-align: center
+    margin-top: 10%;
 }
-
 .avatar {
     height: 120px;
     width: 120px;
