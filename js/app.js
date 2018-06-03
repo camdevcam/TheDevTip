@@ -96,10 +96,10 @@ $('.request').fadeIn("slow");
 
       setTimeout(function(){
         $('.request').effect("bounce", {
-            times: 2,
+            times: 1,
             distance: 80
-        }, 1400);
-       }, 1500);
+        }, 500);
+       }, 1000);
 
 $("input").focusin(function() {
       setTimeout(function() {
