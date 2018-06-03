@@ -102,13 +102,35 @@ body {
     -webkit-animation: fadein 2s;
     -o-animation: fadein 2s
 }
-
+.blink {
+    animation: blink-animation 1s steps(5, start) 2;
+    -webkit-animation: blink-animation 1s steps(5, start) 2;
+}
 input {
     padding: 5px;
     width: 300px;
     font-size: 18px
 }
-
+.logico {
+    float: left;
+    width: 17px;
+    margin-top: 14px;
+    padding: 5px;
+    max-width: 14px;
+}
+.bannr h1 {
+    margin-top: 18px;
+    font-size: 18px;
+    float: left;
+}
+.bannr a:hover { 
+    color: #000000;
+}
+.sup {
+    float: right;
+    opacity: .3;
+    margin-top: 20px;
+}
 ::-webkit-input-placeholder {
     font-size: 14px;
     padding: 3px
@@ -249,12 +271,13 @@ span#explode2 {
    border-top: 15px;
    border-top: 25px solid #dddddd;
 }
-.iterm { 
-   background-size: cover;
-   width: 700px;
-   height: 400px;
-   margin: 0 auto;
-   position:relative;    
+.iterm {
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 4px 38px 24px #000000;
 }
 #weather h2 {
     margin: 0 0 8px;
@@ -407,18 +430,20 @@ textarea {
 .disabled {
     opacity: .2
 }
-
 .request {
-    top: 0;
+    top: -7px;
     position: fixed;
-    right: 100px;
+    right: 0px;
     color: #fff;
-    background: #3661A2;
-    padding: 10px;
+    background: rgba(54, 97, 162, .5);
+    /* padding: 5px; */
     cursor: pointer;
-    box-shadow: 1px 1px 1px #000
+    /* box-shadow: 1px 1px 1px #000; */
+    width: 300px;
+    padding-right: 40px;
+    padding-left: 5px;
+    line-height: 1;
 }
-
 #submitit,
 input[type=submit] {
     color: #fff;
@@ -655,15 +680,18 @@ span.cr {
         padding: 0 0 0 20px
     }
     .request {
-        top: 0;
+        top: -7px;
         position: fixed;
-        right: 0;
+        right: 0px;
         color: #fff;
-        background: #3661A2;
-        padding: 10px;
+        background: rgba(54, 97, 162, .5);
+        /* padding: 5px; */
         cursor: pointer;
-        box-shadow: 1px 1px 1px #000;
-        text-align: center
+        /* box-shadow: 1px 1px 1px #000; */
+        width: 300px;
+        padding-right: 40px;
+        padding-left: 5px;
+        line-height: 1;
     }
     #submitit,
     input[type=submit] {

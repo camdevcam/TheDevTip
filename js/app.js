@@ -128,11 +128,11 @@ var today = new Date()
 var curHr = today.getHours()
 
 if (curHr < 12) {
-  $("span.sup").html("Hey, good morning!");
+  $("span.sup").html("/ Good Morning!");
 } else if (curHr < 18) {
-  $("span.sup").html("Good afternoon, you made it!");
+  $("span.sup").html("/ Good Afternoon!");
 } else {
-  $("span.sup").html("Nice evening, isn't it?");
+  $("span.sup").html("/ Good Evening!");
 }
 
 //$('.request').click(function(){
