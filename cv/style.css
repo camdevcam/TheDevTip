@@ -131,6 +131,7 @@ h4.intro {
     bottom: 0px;
     background: #000000;
     line-height: 3;
+    left:0;
 }
 .stickyfoot:hover { 
     opacity: 1;
@@ -185,7 +186,27 @@ q:before, q:after {
 .pulse{
 	animation-name: pulse_animation;
 	animation-duration: 5000ms;
-	transform-origin:70% 70%;
+	transform-origin:70% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+    display: inline-block;
+}
+
+@keyframes pulse_animation2 {
+	0% { transform: scale(1); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
+}
+
+.pulse2{
+	animation-name: pulse_animation;
+	animation-duration: 5000ms;
+	transform-origin:50% 70%;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
     display: inline-block;

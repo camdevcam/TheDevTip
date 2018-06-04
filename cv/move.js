@@ -24,6 +24,10 @@ setInterval(function(){
       Avatar();
 }, 6000);
 
+setInterval(function(){ 
+      Avatar();
+}, 6000);
+
 function Accordion(){ 
     var acc = document.getElementsByClassName("accordion");
     var i;
