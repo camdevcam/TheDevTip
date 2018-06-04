@@ -98,8 +98,8 @@ $('.request').fadeIn("slow");
         $('.request').effect("bounce", {
             times: 1,
             distance: 80
-        }, 500);
-       }, 1000);
+        }, 200);
+       }, 9200);
 
 $("input").focusin(function() {
       setTimeout(function() {
