@@ -43,10 +43,10 @@ a:link, a:hover, a:active, a:visited {
     height: 150px;
     position: relative;
     width: 150px;
-    opacity:.6;
+/*    opacity:.6;*/
     -webkit-transition: 2s linear;
     -webkit-transform-style: preserve-3d;
-    filter: blur(8px);
+    filter: blur(5px);
 }
 .accordionWrapper{
     padding:30px;background:#fff;float:left;width:80%;box-sizing:border-box;margin:10%;    box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
@@ -276,7 +276,7 @@ span {
 	padding: 0;
 	z-index: -1;
 	box-shadow: 0 0 0 20px rgba(255,255,255,.1);
-	opacity: 0
+	opacity: 0;
 }
 
 .no-touch .solar.active {
@@ -343,4 +343,24 @@ span {
   color: rgba(0,0,0,0);
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
   transition: text-shadow 2.5s;
+}
+/* Tablet and Mobile */
+@media (max-width:600px) and (min-width:200px) {
+    h1, h4 { 
+        text-align:center;
+    }
+    .left { 
+        margin-top: 200px;
+    }
+    .left, .right {
+        width:100%;
+        max-width: 100%;
+        float:left;
+    }
+    .solar { 
+        left: 30%;
+    }
+    .blockd, .spacer, .stickyfoot { 
+        display:none;
+    }
 }
