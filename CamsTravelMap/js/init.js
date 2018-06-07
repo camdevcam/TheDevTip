@@ -27,17 +27,14 @@ window.onload=function(){
     });
 
     // Already Visited
-    // add a marker in the given location
-    L.marker(center, {icon: redPin}).bindPopup("Home: Washington D.C.").addTo(map);
 
     // North America
+    L.marker(center, {icon: redPin}).bindPopup("Home: Washington D.C.").addTo(map);    
     L.marker([49.8951, -97.1384], {icon: redPin}).bindPopup("Traveled: Winnipeg, CA").addTo(map); 
     L.marker([45.5017, -73.5673], {icon: redPin}).bindPopup("Traveled: Montreal, CA").addTo(map);
     L.marker([44.9778, -93.2650], {icon: redPin}).bindPopup("Traveled: Minneapolis, MN").addTo(map);
-
     L.marker([42.3601, -71.0589], {icon: redPin}).bindPopup("Traveled: Boston, MA").addTo(map); 
     L.marker([40.7128, -74.0060], {icon: redPin}).bindPopup("Lived: NYC").addTo(map);
-
     L.marker([34.0522, -118.243], {icon: redPin}).bindPopup("Lived: L.A., CA").addTo(map);
     L.marker([32.7767, -96.7970], {icon: redPin}).bindPopup("Traveled: Dallas, TX").addTo(map);
     L.marker([36.1627, -86.7816], {icon: redPin}).bindPopup("Traveled: Nashville, TN").addTo(map);
@@ -53,8 +50,6 @@ window.onload=function(){
     L.marker([33.6891, -78.8867], {icon: redPin}).bindPopup("Traveled: Myrtle Beach, SC").addTo(map);
     L.marker([25.7617, -80.1918], {icon: redPin}).bindPopup("Traveled: Miami, FL. ").addTo(map);
     L.marker([28.5383, -81.3792], {icon: redPin}).bindPopup("Traveled: Orlando, FL. ").addTo(map);
-
-
     L.marker([32.7157, -117.1611], {icon: redPin}).bindPopup("Traveled: SD, CA").addTo(map);
     L.marker([23.2494, -106.4111], {icon: redPin}).bindPopup("Traveled: Mazatlan, MX").addTo(map);
     L.marker([20.6534, -105.2253], {icon: redPin}).bindPopup("Traveled: Puerto Vallarta, MX").addTo(map);
@@ -72,7 +67,6 @@ window.onload=function(){
     L.marker([8.4007, -82.4428], {icon: redPin}).bindPopup("Traveled: David, Panama").addTo(map);
     L.marker([8.7761, -82.4324], {icon: redPin}).bindPopup("Traveled: Boquete, Panama").addTo(map);
 
-
     // Carib
     L.marker([19.7509, -70.4144], {icon: redPin}).bindPopup("Traveled: Cabarate, D.R.").addTo(map);
     L.marker([18.3402, -67.2499], {icon: redPin}).bindPopup("Traveled: Rincon, P.R.").addTo(map);
@@ -88,7 +82,6 @@ window.onload=function(){
     // Europe
     L.marker([51.5074, 0.1278], {icon: redPin}).bindPopup("Traveled: London, UK").addTo(map);
     L.marker([42.6977, 23.3219], {icon: redPin}).bindPopup("Traveled: Sofia, Bulgaria").addTo(map);
-
 
     // Asia
     L.marker([-8.6478, 115.1385], {icon: redPin}).bindPopup("Traveled: Canggu, Indonesia").addTo(map);

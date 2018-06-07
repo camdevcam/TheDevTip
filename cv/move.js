@@ -3,12 +3,13 @@ window.onload = Avatar;
 window.onload = Accordion;
 //window.onload = startHide;
 
+$("#coin").removeClass("flip");    
+
 function Toggle() {
    var element = document.getElementById("experience");
    element.classList.toggle("opentoggle");
 }
 function Avatar(){ 
-    $("#coin").toggleClass("flip");    
     var Coin = document.getElementById("coin");
     var degrees = 0;
     degrees += 1800;
@@ -25,8 +26,12 @@ setInterval(function(){
 }, 6000);
 
 setInterval(function(){ 
-      Avatar();
-}, 6000);
+    $("#coin").toggleClass("flip");    
+}, 5500);
+
+//setInterval(function(){ 
+//    $("#coin").removeClass("flip");    
+//}, 8200);
 
 function Accordion(){ 
     var acc = document.getElementsByClassName("accordion");
@@ -57,6 +62,14 @@ $(function() {
     }, 6000);    
     
 });
+
+setInterval(function() {
+	$(".solar").toggleClass('active');
+}, 1000);
+
+setTimeout(function(){
+    $(".fuz").css({"color":"rgba(1,1,1,1)", "text-shadow":"none"});
+}, 21000);
 
 //function splitWords() {
 //  let quote = document.querySelector("blockquote q");

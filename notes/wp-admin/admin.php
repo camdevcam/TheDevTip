@@ -143,6 +143,14 @@ if ( current_user_can( 'manage_options' ) ) {
 	wp_raise_memory_limit( 'admin' );
 }
 
+function remove_dashboard_meta() {
+//        remove_meta_box( 'dashboard_activity', 'dashboard', 'normal' ); // Activity
+//        remove_meta_box( 'dashboard_primary', 'dashboard', 'normal' ); // WordPress News
+        remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' ); // Quick Draft
+//        remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' ); // At a Glance
+}
+add_action( 'admin_init', 'remove_dashboard_meta' );
+
 /**
  * Fires as an admin screen or script is being initialized.
  *
@@ -294,16 +302,6 @@ if ( isset($plugin_page) ) {
 
 	define('WP_IMPORTING', true);
 
-	/**
-	 * Whether to filter imported data through kses on import.
-	 *
-	 * Multisite uses this hook to filter all data through kses by default,
-	 * as a super administrator may be assisting an untrusted user.
-	 *
-	 * @since 3.1.0
-	 *
-	 * @param bool $force Whether to force data to be filtered through kses. Default false.
-	 */
 	if ( apply_filters( 'force_filtered_html_on_import', false ) ) {
 		kses_init_filters();  // Always filter imported data with kses on multisite.
 	}
