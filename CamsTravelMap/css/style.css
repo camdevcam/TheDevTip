@@ -9,7 +9,7 @@ html, body {
   padding:0;
   margin:0;
   font-family: 'Song Myung', serif;
-  background: #333333;
+  background: url('http://thedevtip.com/notes/wp-content/uploads/2018/05/footer_lodyas.png');
 }
 img.head { 
    opacity: .2; 
@@ -31,7 +31,7 @@ h2 {
    bottom:0; 
    right:0; 
    left:0; 
-   box-shadow: 8px 6px 16px 8px;
+   box-shadow: 19px 15px 38px 18px rgba(54, 97, 162, 0.7);
 }
 .floating{
     -webkit-animation-name: Floatingx;
