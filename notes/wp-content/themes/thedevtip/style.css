@@ -183,7 +183,12 @@ svg:not(:root) {
 figure {
 	margin: 1em 40px;
 }
-
+.middy_img { 
+    max-width: 500px;
+}
+.biggy_img { 
+    max-width: 700px;
+}
 #wpcomm, div#comments { border: none !important;}
 
 h1 a { color: #3661A2; opacity: 1;}
@@ -239,10 +244,17 @@ input[type="submit"] {
 }
 img.blurd {
      filter: blur(10px);
-
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);    
 }
 img.blurd:hover {
- filter: blur(0px);
+    filter: blur(0px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);        
 }
 article img { max-width: 900px;}
 button[disabled],
@@ -610,12 +622,22 @@ header#masthead {
     background-position-y: -639px;
     margin-bottom: 30px;
     filter: blur(31px);
+    -webkit-filter: blur(31px);
+    -moz-filter: blur(31px);
+    -ms-filter: blur(31px);
+    -o-filter: blur(31px);    
     height: 81px;
 }
+/*
 header#masthead:hover { 
     filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);    
     border-bottom:1px solid #ffffff;
 }
+*/
 img.custom-logo {
 	max-height: 75px;
 	width: auto;
@@ -1419,4 +1441,19 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+/* Tablet and Mobile General */
+@media (max-width:600px) and (min-width:200px) {
+    .post, .page { 
+        opacity: 1;
+    }
+    iframe { 
+        max-width: 300px;
+    }
+   .middy_img { 
+        max-width: 300px;
+    }
+   .biggy_img { 
+        max-width: 300px;
+    }
+}
 

@@ -47,6 +47,10 @@ a:link, a:hover, a:active, a:visited {
     -webkit-transition: 2s linear;
     -webkit-transform-style: preserve-3d;
     filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);    
 }
 .accordionWrapper{
     padding:30px;background:#fff;float:left;width:80%;box-sizing:border-box;margin:10%;    box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
@@ -157,9 +161,13 @@ blockquote q {
     height: 220px;
 }
 blockquote q span { 
-  will-change: opacity, filter;
-  opacity: 0;
-  filter: blur(0px);
+    will-change: opacity, filter;
+    opacity: 0;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);     
 }
 q {
   quotes: "“" "”" "‘" "’";
