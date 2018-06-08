@@ -145,7 +145,7 @@ if ( current_user_can( 'manage_options' ) ) {
 
 function remove_dashboard_meta() {
 //        remove_meta_box( 'dashboard_activity', 'dashboard', 'normal' ); // Activity
-//        remove_meta_box( 'dashboard_primary', 'dashboard', 'normal' ); // WordPress News
+        remove_meta_box( 'dashboard_primary', 'dashboard', 'normal' ); // WordPress News
         remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' ); // Quick Draft
 //        remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' ); // At a Glance
 }
